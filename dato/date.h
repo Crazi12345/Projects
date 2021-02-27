@@ -16,6 +16,7 @@ public:
     bool isLeapYear();
     int dayOfTheYear();
     bool isValid();
+    void incrementDate();
 
 private:
     int date;
