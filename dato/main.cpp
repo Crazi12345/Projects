@@ -4,9 +4,8 @@ using namespace std;
 
 int main()
 {
-    Date d(19770931);
+    Date d(20120931);
     cout << d.getDate() << endl;
-
     cout <<d.getYear() <<endl;
     cout <<d.getMonth() <<endl;
     cout << d.getDay()<<endl;

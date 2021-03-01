@@ -5,6 +5,7 @@ Date::Date()
 {
 
 }
+
 Date::Date(int num){
 date=num;
 
@@ -14,17 +15,7 @@ int Date::getDate(){
     return date;
 }
 
-void Date::incrementDate(){
-  date++;
-while(isValid()==false){
-    date++;
-  }
 
-
-cout << date << endl;
-
-
-}
 
 int Date::getYear(){
 year = date/10000;
@@ -56,12 +47,11 @@ int Date::getQuarter(){
 }
 
 bool Date::isLeapYear(){
-    if (year%4==0 &&year%100!=0){
+    if (year%4==0&&year%100==0&&year%400!=0){
         return true;
     }
-    else if(year%400==0){
-        return true;
-    }
+
+
     else {
         return false;
     }
@@ -120,5 +110,9 @@ bool Date::isValid(){
         }
         return true;
     }
+
+}
+void Date::incrementDate(){
+
 
 }
