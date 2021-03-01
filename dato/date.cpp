@@ -15,10 +15,12 @@ int Date::getDate(){
     return date;
 }
 
+
 int Date::getYear(){
 year = date/10000;
 return year;
 }
+
 int Date::getMonth(){
 
 month= (date-year*10000)/100;
@@ -31,6 +33,7 @@ int Date::getDay(){
 day=(date-year*10000)-month*100;
 return day;
 }
+
 void Date::print(){
 
     cout << "År: "<<year<<"     Måned: "<<month<<" Dag: "<<day<<endl;
@@ -60,7 +63,7 @@ doy=0;
             if(i==2){
                 if(isLeapYear()==true){
                     doy=doy+29;
-                }
+                }/
                 else{
                      doy=doy+28;
                 }
@@ -108,7 +111,4 @@ bool Date::isValid(){
     }
 
 }
-void Date::incrementDate(){
 
-
-}

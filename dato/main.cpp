@@ -14,7 +14,7 @@ int main()
     cout << "Skudår: "<<d.isLeapYear()<<endl;
     cout << "day of year: "<<d.dayOfTheYear()<<endl;
     cout << "Er denne Dato like okay?: "<<d.isValid()<<endl;
-     d.incrementDate();
+
 
     return 0;
 }
