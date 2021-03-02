@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    Date d(19770931);
+    Date d(19200931);
     cout << d.getDate() << endl;
 
     cout <<d.getYear() <<endl;
