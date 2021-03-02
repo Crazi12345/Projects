@@ -1,5 +1,6 @@
 #include <iostream>
 #include "date.h"
+#include "cpr.h"
 using namespace std;
 
 int main()
@@ -16,6 +17,10 @@ int main()
     cout << "day of year: "<<d.dayOfTheYear()<<endl;
     cout << "Er denne Dato like okay?: "<<d.isValid()<<endl;
 
+    cout << endl <<endl << "///////////////////////////////////////////////////"<< endl << endl;
 
+    CPR c("0705015133");
+    cout << c.getCprNr()<<endl;
+    cout << c.getDay() << endl;
     return 0;
 }

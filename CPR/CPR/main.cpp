@@ -1,9 +1,11 @@
 #include <iostream>
 #include "cpr.h"
-using namespace std;
 
 int main()
 {
-    CPR c("tallet");
+    CPR c("0705015133");
+    std::cout<<"CPR nummer: "<<c.getCprNr()<<std::endl;
+    std::cout<<c.getDay()<<std::endl;
+
     return 0;
 }

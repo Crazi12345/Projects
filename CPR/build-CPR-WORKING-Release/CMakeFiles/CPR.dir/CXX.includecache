@@ -6,13 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/tired_atlas/Projects/CPR/CPR/cpr.h
-iostream
--
-
-/home/tired_atlas/Projects/CPR/CPR/main.cpp
-iostream
--
+/home/tired_atlas/Projects/CPR/CPR/cpr.cpp
 cpr.h
 /home/tired_atlas/Projects/CPR/CPR/cpr.h
+iostream
+-
+string
+-
+
+/home/tired_atlas/Projects/CPR/CPR/cpr.h
+iostream
+-
 
