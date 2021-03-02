@@ -14,17 +14,7 @@ int Date::getDate(){
     return date;
 }
 
-void Date::incrementDate(){
-  date++;
-while(isValid()==false){
-    date++;
-  }
 
-
-cout << date << endl;
-
-
-}
 
 int Date::getYear(){
 year = date/10000;

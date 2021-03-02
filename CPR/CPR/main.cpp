@@ -1,9 +1,9 @@
 #include <iostream>
-
+#include "cpr.h"
 using namespace std;
 
 int main()
 {
-    cout << "Hello World!" << endl;
+    CPR c("tallet");
     return 0;
 }

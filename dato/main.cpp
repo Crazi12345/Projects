@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    Date d(19200931);
+    Date d(20090911);
     cout << d.getDate() << endl;
 
     cout <<d.getYear() <<endl;
@@ -15,7 +15,7 @@ int main()
     cout << "Skudår: "<<d.isLeapYear()<<endl;
     cout << "day of year: "<<d.dayOfTheYear()<<endl;
     cout << "Er denne Dato like okay?: "<<d.isValid()<<endl;
-     d.incrementDate();
+
 
     return 0;
 }
