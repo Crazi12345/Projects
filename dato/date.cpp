@@ -91,7 +91,7 @@ bool Date::isValid(){
                         return false;
                     }
                 }
-                if(day<0||day>28){
+                if(day<1||day>28){
                     return false;
                 }
             }
@@ -105,11 +105,40 @@ bool Date::isValid(){
                 return false;
         }
         }
-        if(day<0||day>31){
+        if(day<1||day>31){
             return false;
         }
         return true;
     }
 
+}
+void Date::incrementDate(){
+    date++;
+
+    getDay();
+    getMonth();
+    getYear();
+     while (isValid()==false){
+         date++;
+         getDay();
+         getMonth();
+         getYear();
+     }
+
+     cout << "Next date: "<< date << endl;
+}
+
+void Date::deincrementDate(){
+    date = date-1;
+    getDay();
+    getMonth();
+    getYear();
+    while (isValid()==false){
+        date=date-1;
+        getDay();
+        getMonth();
+        getYear();
+    }
+    cout<<"Previous date: "<< date << endl;
 }
 

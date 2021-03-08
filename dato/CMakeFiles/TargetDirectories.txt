@@ -1,0 +1,3 @@
+/home/tired_atlas/Projects/dato/CMakeFiles/rebuild_cache.dir
+/home/tired_atlas/Projects/dato/CMakeFiles/edit_cache.dir
+/home/tired_atlas/Projects/dato/CMakeFiles/dato.dir

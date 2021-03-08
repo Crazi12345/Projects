@@ -17,6 +17,9 @@ public:
     int dayOfTheYear();
     bool isValid();
     void incrementDate();
+    void deincrementDate();
+    int diffInDays(Date dato);
+
 
 private:
     int date;

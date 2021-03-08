@@ -1,0 +1,1 @@
+/usr/bin/g++  -O3 -DNDEBUG   CMakeFiles/dato.dir/date.cpp.o CMakeFiles/dato.dir/cpr.cpp.o CMakeFiles/dato.dir/main.cpp.o  -o dato 

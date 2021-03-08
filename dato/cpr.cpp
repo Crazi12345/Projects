@@ -18,6 +18,11 @@ int CPR::getDay(){
 }
 
 
+int CPR::getMonth(){
+    int month = stoi(nummeret);
+    month = month/1000000;
+    return month;
+}
 
 
 /*int date = stoi(nummeret);
