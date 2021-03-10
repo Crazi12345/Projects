@@ -7,8 +7,8 @@ int main()
 {
  // int x;
   //cin >>x;
-    Date d(20010200);
-    Date d2(20010911);
+    Date d(20391231);
+
     cout << d.getDate() << endl;
 
     cout <<d.getYear() <<endl;
@@ -19,9 +19,14 @@ int main()
     cout << "Skudår: "<<d.isLeapYear()<<endl;
     cout << "day of year: "<<d.dayOfTheYear()<<endl;
     cout << "Er denne Dato like okay?: "<<d.isValid()<<endl;
-      d.incrementDate();
+    d.incrementDate();
      d.deincrementDate();
-     cout << "what the fuck is this shit: "<<d.diffInDays(d2.dayOfTheYear())<<endl;;
+     Date d2(20211231);
+     cout <<d2.getYear() <<endl;
+     cout <<d2.getMonth() <<endl;
+     cout << d2.getDay()<<endl;
+             cout<<d2.dayOfTheYear()<<endl;
+     cout << "what the fuck is this shit: "<<d.diffInDays(d2)<<endl;
 
 
     cout << endl <<endl << "///////////////////////////////////////////////////"<< endl << endl;

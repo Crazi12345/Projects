@@ -63,7 +63,7 @@ bool Date::isLeapYear(){
 int Date::dayOfTheYear(){
 doy=0;
     for(int i=1;i<month;i++){
-        if(i%2==0){
+        if(i%2==0&&i<7){
             if(i==2){
                 if(isLeapYear()==true){
                     doy=doy+29;
@@ -74,9 +74,21 @@ doy=0;
             }
             else doy=doy+30;
         }
-        else doy=doy+31;
+        else if(i%2!=0&&i>6){
+            if(i==7){
+                doy=doy+31;
+              }
+            else{
+            doy=doy+30;
+              }
+          }
+        else{
+            doy=doy+31;}
+
     }
+
     doy=doy+day;
+
     return doy;
 }
 bool Date::isValid(){
@@ -145,9 +157,53 @@ void Date::deincrementDate(){
         getYear();
     }
     cout<<"Previous date: "<< date << endl;
-}
-int Date::diffInDays(int dato){
 
-  int diff = doy-dato;
+}
+int Date::diffInDays(Date d2){
+ d2.getDate();
+ d2.getYear();
+ d2.getMonth();
+d2.getDay();
+
+  cout <<""<<endl;
+  int extra_year=0;
+  int extra_lyear=0;
+  if(getYear()>d2.getYear()){
+      for (int i = d2.getYear();i<getYear();i++){
+
+          if (i%4==0 &&i%100!=0){
+              extra_lyear++;
+          }
+          else if(i%400==0){
+                extra_lyear++;
+            }
+          else {
+              extra_year++;
+          }
+
+        }
+    }
+  else {
+      for (int i = getYear();i<d2.getYear();i++){
+
+          if (i%4==0 &&i%100!=0){
+              extra_lyear++;
+          }
+          else if(i%400==0){
+                extra_lyear++;
+            }
+          else {
+              extra_year++;
+          }
+
+        }
+    }
+  cout<<"Leap years: "<<extra_lyear<<endl;
+  cout<<"year: "<<extra_year<<endl;
+  extra_lyear = extra_lyear*366;
+  extra_year=extra_year*365;
+
+
+  int diff = d2.dayOfTheYear()-doy+extra_lyear+extra_year;
   return diff;
 }
