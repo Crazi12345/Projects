@@ -1,6 +1,7 @@
 #include "date.h"
 #include <iostream>
 using namespace std;
+
 Date::Date()
 {
 
@@ -20,6 +21,7 @@ int Date::getYear(){
 year = date/10000;
 return year;
 }
+
 int Date::getMonth(){
 
 month= (date-year*10000)/100;
@@ -32,10 +34,11 @@ int Date::getDay(){
 day=(date-year*10000)-month*100;
 return day;
 }
+
 void Date::print(){
 
-    cout << "År: "<<year<<"     Måned: "<<month<<" Dag: "<<day<<endl;
-    cout <<'\n'<< "Kvartal: "<<quarter<<endl;
+  cout << "År: "<<year<<"     Måned: "<<month<<" Dag: "<<day<<endl;
+  cout <<'\n'<< "Kvartal: "<<quarter<<endl;
 
 }
 
@@ -126,6 +129,8 @@ void Date::incrementDate(){
      }
 
      cout << "Next date: "<< date << endl;
+     print();
+
 }
 
 void Date::deincrementDate(){
@@ -141,4 +146,8 @@ void Date::deincrementDate(){
     }
     cout<<"Previous date: "<< date << endl;
 }
+int Date::diffInDays(int dato){
 
+  int diff = doy-dato;
+  return diff;
+}

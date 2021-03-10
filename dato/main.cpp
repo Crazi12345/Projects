@@ -5,7 +5,10 @@ using namespace std;
 
 int main()
 {
-    Date d(20010101);
+ // int x;
+  //cin >>x;
+    Date d(20010200);
+    Date d2(20010911);
     cout << d.getDate() << endl;
 
     cout <<d.getYear() <<endl;
@@ -16,8 +19,10 @@ int main()
     cout << "Skudår: "<<d.isLeapYear()<<endl;
     cout << "day of year: "<<d.dayOfTheYear()<<endl;
     cout << "Er denne Dato like okay?: "<<d.isValid()<<endl;
+      d.incrementDate();
      d.deincrementDate();
-    d.incrementDate();
+     cout << "what the fuck is this shit: "<<d.diffInDays(d2.dayOfTheYear())<<endl;;
+
 
     cout << endl <<endl << "///////////////////////////////////////////////////"<< endl << endl;
 

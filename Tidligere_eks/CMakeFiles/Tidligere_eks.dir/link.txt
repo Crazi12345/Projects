@@ -1,0 +1,1 @@
+/usr/bin/g++  -O3 -DNDEBUG   CMakeFiles/Tidligere_eks.dir/main.cpp.o CMakeFiles/Tidligere_eks.dir/album.cpp.o CMakeFiles/Tidligere_eks.dir/track.cpp.o CMakeFiles/Tidligere_eks.dir/artist.cpp.o  -o Tidligere_eks 

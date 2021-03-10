@@ -1,0 +1,3 @@
+/home/tired_atlas/Projects/Tidligere_eks/CMakeFiles/rebuild_cache.dir
+/home/tired_atlas/Projects/Tidligere_eks/CMakeFiles/edit_cache.dir
+/home/tired_atlas/Projects/Tidligere_eks/CMakeFiles/T-eks.dir

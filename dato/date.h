@@ -18,7 +18,7 @@ public:
     bool isValid();
     void incrementDate();
     void deincrementDate();
-    int diffInDays(Date dato);
+    int diffInDays(int dato);
 
 
 private:

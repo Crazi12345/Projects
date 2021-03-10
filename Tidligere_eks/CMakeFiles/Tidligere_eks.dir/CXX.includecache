@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tired_atlas/Projects/Tidligere_eks/Tidligere_eks/track.cpp
+track.h
+/home/tired_atlas/Projects/Tidligere_eks/Tidligere_eks/track.h
+
+/home/tired_atlas/Projects/Tidligere_eks/Tidligere_eks/track.h
+iostream
+-
+
