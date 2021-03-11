@@ -140,8 +140,8 @@ void Date::incrementDate(){
          getYear();
      }
 
-     cout << "Next date: "<< date << endl;
-     print();
+   //  cout << "Next date: "<< date << endl;
+    // print();
 
 }
 
@@ -206,4 +206,23 @@ d2.getDay();
 
   int diff = d2.dayOfTheYear()-doy+extra_lyear+extra_year;
   return diff;
+}
+int Date::weekday(){
+
+  int weekday=1;
+  Date start=17000101;
+
+  for (int i=start.getDate();i!=date;i++){
+      weekday++;
+      if(weekday>7){
+          weekday=1;
+        }
+
+
+    start.incrementDate();
+    i=start.getDate();
+     // cout<<i<<endl;
+     cout <<i<<" "<<weekday<<endl;
+    }
+  return weekday;
 }

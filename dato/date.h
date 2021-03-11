@@ -19,7 +19,7 @@ public:
     void incrementDate();
     void deincrementDate();
     int diffInDays(Date d2);
-
+    int weekday();
 
 private:
     int date;
