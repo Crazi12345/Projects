@@ -13,7 +13,7 @@ class Album
   Album(std::string, Artist&);
   std::string getTitle();
   int getCount();
-  Artist& getArtist();
+   Artist& getArtist();
   //void addTrack(Track&);
   int getTotalLength();
   //~Album();

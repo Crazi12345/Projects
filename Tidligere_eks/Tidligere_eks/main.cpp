@@ -17,7 +17,8 @@ int main()
 
   cout << "Album test: "<<endl;
   Album AB("Agressive", A);
-  AB.getArtist();
+  cout << AB.getTitle()<<endl;
+  cout << AB.getArtist()<<endl;
 
   return 0;
 }

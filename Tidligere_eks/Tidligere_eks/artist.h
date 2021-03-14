@@ -1,15 +1,15 @@
 #ifndef ARTIST_H
 #define ARTIST_H
 #include <iostream>
-
+using namespace std;
 class Artist
 {
 public:
   Artist();
   Artist(std::string artist);
-  std::string getArtist();
+  string getArtist();
 private:
-  std::string artist;
+  string artist;
 };
 
 #endif // ARTIST_H
