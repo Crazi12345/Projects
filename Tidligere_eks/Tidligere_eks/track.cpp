@@ -18,6 +18,7 @@ int Track::getLength(){
       min++;
     }
   length = sec+min*100;
+
   return length;
 }
 

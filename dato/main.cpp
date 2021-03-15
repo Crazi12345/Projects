@@ -19,12 +19,12 @@ int main()
     cout << "Skudår: "<<d.isLeapYear()<<endl;
     cout << "day of year: "<<d.dayOfTheYear()<<endl;
     cout << "Er denne Dato like okay?: "<<d.isValid()<<endl;
-    for (int i = 0; i<100;i++){
+
     cout<<"next day: ";
     d.incrementDate();
-    cout <<d.getDate()<<endl;}
+    cout <<d.getDate()<<endl;
      d.deincrementDate();
-     cout <<"weekday: "<<d.weekday()<<endl;
+    // cout <<"weekday: "<<d.weekday()<<endl;
      Date d2(20211231);
      cout <<d2.getYear() <<endl;
      cout <<d2.getMonth() <<endl;

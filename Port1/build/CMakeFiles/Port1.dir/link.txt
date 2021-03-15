@@ -1,0 +1,1 @@
+/usr/bin/g++  -O3 -DNDEBUG   CMakeFiles/Port1.dir/main.cpp.o CMakeFiles/Port1.dir/prime_factor.cpp.o  -o Port1 

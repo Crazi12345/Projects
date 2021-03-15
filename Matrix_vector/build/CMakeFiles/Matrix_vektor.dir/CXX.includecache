@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tired_atlas/Projects/Matrix_vector/Matrix_vektor/main.cpp
+iostream
+-
+vector
+-
+
+/home/tired_atlas/Projects/Matrix_vector/Matrix_vektor/matrix.cpp
+matrix.h
+/home/tired_atlas/Projects/Matrix_vector/Matrix_vektor/matrix.h
+
+/home/tired_atlas/Projects/Matrix_vector/Matrix_vektor/matrix.h
+

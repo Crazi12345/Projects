@@ -1,0 +1,1 @@
+/usr/bin/g++  -O3 -DNDEBUG   CMakeFiles/Matrix_vektor.dir/main.cpp.o CMakeFiles/Matrix_vektor.dir/matrix.cpp.o  -o Matrix_vektor 

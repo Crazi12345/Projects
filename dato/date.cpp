@@ -207,6 +207,7 @@ d2.getDay();
   int diff = d2.dayOfTheYear()-doy+extra_lyear+extra_year;
   return diff;
 }
+/*
 int Date::weekday(){
 
   int weekday=1;
@@ -226,3 +227,4 @@ int Date::weekday(){
     }
   return weekday;
 }
+*/
