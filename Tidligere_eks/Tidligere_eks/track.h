@@ -10,7 +10,7 @@ public:
   Track(std::string,int);
   std::string getTitle();
   int getLength();
- // ~Track();
+  ~Track();
 private:
   std::string title;
   int length;

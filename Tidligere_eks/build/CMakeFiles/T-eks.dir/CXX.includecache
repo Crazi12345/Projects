@@ -6,33 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/tired_atlas/Projects/Tidligere_eks/Tidligere_eks/album.cpp
-album.h
-/home/tired_atlas/Projects/Tidligere_eks/Tidligere_eks/album.h
-artist.h
-/home/tired_atlas/Projects/Tidligere_eks/Tidligere_eks/artist.h
-iostream
--
-
-/home/tired_atlas/Projects/Tidligere_eks/Tidligere_eks/album.h
-iostream
--
-artist.h
-/home/tired_atlas/Projects/Tidligere_eks/Tidligere_eks/artist.h
-
-/home/tired_atlas/Projects/Tidligere_eks/Tidligere_eks/artist.h
-iostream
--
-
-/home/tired_atlas/Projects/Tidligere_eks/Tidligere_eks/main.cpp
-iostream
--
+/home/tired_atlas/Projects/Tidligere_eks/Tidligere_eks/track.cpp
 track.h
 /home/tired_atlas/Projects/Tidligere_eks/Tidligere_eks/track.h
-artist.h
-/home/tired_atlas/Projects/Tidligere_eks/Tidligere_eks/artist.h
-album.h
-/home/tired_atlas/Projects/Tidligere_eks/Tidligere_eks/album.h
+iostream
+-
 
 /home/tired_atlas/Projects/Tidligere_eks/Tidligere_eks/track.h
 iostream

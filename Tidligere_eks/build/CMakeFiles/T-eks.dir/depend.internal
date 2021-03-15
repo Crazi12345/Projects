@@ -5,6 +5,7 @@ CMakeFiles/T-eks.dir/album.cpp.o
  /home/tired_atlas/Projects/Tidligere_eks/Tidligere_eks/album.cpp
  /home/tired_atlas/Projects/Tidligere_eks/Tidligere_eks/album.h
  /home/tired_atlas/Projects/Tidligere_eks/Tidligere_eks/artist.h
+ /home/tired_atlas/Projects/Tidligere_eks/Tidligere_eks/track.h
 CMakeFiles/T-eks.dir/artist.cpp.o
  /home/tired_atlas/Projects/Tidligere_eks/Tidligere_eks/artist.cpp
  /home/tired_atlas/Projects/Tidligere_eks/Tidligere_eks/artist.h
@@ -12,10 +13,14 @@ CMakeFiles/T-eks.dir/main.cpp.o
  /home/tired_atlas/Projects/Tidligere_eks/Tidligere_eks/album.h
  /home/tired_atlas/Projects/Tidligere_eks/Tidligere_eks/artist.h
  /home/tired_atlas/Projects/Tidligere_eks/Tidligere_eks/main.cpp
+ /home/tired_atlas/Projects/Tidligere_eks/Tidligere_eks/recordcollection.h
  /home/tired_atlas/Projects/Tidligere_eks/Tidligere_eks/track.h
 CMakeFiles/T-eks.dir/recordcollection.cpp.o
+ /home/tired_atlas/Projects/Tidligere_eks/Tidligere_eks/album.h
+ /home/tired_atlas/Projects/Tidligere_eks/Tidligere_eks/artist.h
  /home/tired_atlas/Projects/Tidligere_eks/Tidligere_eks/recordcollection.cpp
  /home/tired_atlas/Projects/Tidligere_eks/Tidligere_eks/recordcollection.h
+ /home/tired_atlas/Projects/Tidligere_eks/Tidligere_eks/track.h
 CMakeFiles/T-eks.dir/track.cpp.o
  /home/tired_atlas/Projects/Tidligere_eks/Tidligere_eks/track.cpp
  /home/tired_atlas/Projects/Tidligere_eks/Tidligere_eks/track.h
