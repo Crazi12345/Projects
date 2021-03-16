@@ -1,11 +1,22 @@
-#ifndef PRIME_FACTOR_H
-#define PRIME_FACTOR_H
+#pragma once
+#include <vector>
 
-
-class prime_factor
+class PrimeFactor
 {
 public:
-  prime_factor();
-};
+  PrimeFactor(int n);
+  PrimeFactor(std::vector<int> primes);
+  void print();
+  bool isPrime(int num);
+  PrimeFactor add(PrimeFactor n);
+  PrimeFactor subtract(PrimeFactor n);
+  PrimeFactor divide(PrimeFactor n);
+  PrimeFactor multiply(PrimeFactor n);
+  PrimeFactor operator+(PrimeFactor n);
+    PrimeFactor operator-(PrimeFactor n);
+      PrimeFactor operator/(PrimeFactor n);
+        PrimeFactor operator*(PrimeFactor n);
 
-#endif // PRIME_FACTOR_H
+private:
+        std::vector<int> primeFactors;
+};
