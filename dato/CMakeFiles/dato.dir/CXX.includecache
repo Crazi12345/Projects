@@ -6,17 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/tired_atlas/Projects/dato/cpr.h
-iostream
--
-
-/home/tired_atlas/Projects/dato/date.h
-
-/home/tired_atlas/Projects/dato/main.cpp
-iostream
--
+/home/tired_atlas/Projects/dato/date.cpp
 date.h
 /home/tired_atlas/Projects/dato/date.h
-cpr.h
-/home/tired_atlas/Projects/dato/cpr.h
+iostream
+-
+
+/home/tired_atlas/Projects/dato/date.h
 

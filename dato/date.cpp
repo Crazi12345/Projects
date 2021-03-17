@@ -209,10 +209,11 @@ d2.getDay();
 }
 int Date::weekday(){
 
-  int weekday=1;
-  Date start=17000101;
+  int weekday=0;
+  Date start=17000301;
 
-  for (int i=start.getDate();i!=date;i++){
+  for (int i=start.getDate();i<date;i++){
+
       weekday++;
       if(weekday>7){
           weekday=1;
@@ -222,7 +223,8 @@ int Date::weekday(){
     start.incrementDate();
     i=start.getDate();
      // cout<<i<<endl;
-     cout <<i<<" "<<weekday<<endl;
+  //   cout <<i<<" "<<weekday<<endl;
     }
   return weekday;
 }
+
