@@ -1,6 +1,8 @@
 #include "prime_factor.h"
 #include <iostream>
+#include <vector>
 using namespace std;
+
 PrimeFactor::PrimeFactor(int n)
 {
   for(int i=2;i<100000;i++){
@@ -81,4 +83,19 @@ PrimeFactor PrimeFactor::subtract(PrimeFactor n){
   PrimeFactor pfs(pf1-pf2);
   pfs.print();
   return pfs;
+}
+
+PrimeFactor PrimeFactor::divide(PrimeFactor n){
+  for(int i = 0;i<primeFactors.size();i++){
+      for (int j =0;j<n.primeFactors.size();j++){
+           if(primeFactors.at(i)==n.primeFactors.at(j)){
+               primeFactors.erase(i);
+               i--;
+             }
+    }
+}
+
+  print();
+  return primeFactors;
+
 }

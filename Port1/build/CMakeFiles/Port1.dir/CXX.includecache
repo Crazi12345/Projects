@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/tired_atlas/Projects/Port1/Port1/main.cpp
-iostream
--
+/home/tired_atlas/Projects/Port1/Port1/prime_factor.cpp
 prime_factor.h
 /home/tired_atlas/Projects/Port1/Port1/prime_factor.h
+iostream
+-
+vector
+-
 
 /home/tired_atlas/Projects/Port1/Port1/prime_factor.h
 vector
