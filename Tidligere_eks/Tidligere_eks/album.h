@@ -2,7 +2,8 @@
 #define ALBUM_H
 #include <iostream>
 #include "artist.h"
-
+#include "track.h"
+#include <vector>
 
 
 class Album
@@ -14,14 +15,14 @@ class Album
   std::string getTitle();
   int getCount();
   Artist& getArtist();
-  //void addTrack(Track&);
+  void addTrack(Track&);
   int getTotalLength();
-  //~Album();
+  ~Album();
 
  private:
   std::string title;
   Artist artist;
- // vector<Track*> tracks;
+  std::vector<Track*> tracks;
   int   count;
 
 };

@@ -1,0 +1,1 @@
+/usr/bin/g++  -O3 -DNDEBUG   CMakeFiles/T-eks.dir/main.cpp.o CMakeFiles/T-eks.dir/album.cpp.o CMakeFiles/T-eks.dir/track.cpp.o CMakeFiles/T-eks.dir/artist.cpp.o CMakeFiles/T-eks.dir/recordcollection.cpp.o  -o T-eks 

@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tired_atlas/Projects/Uart_comm/Uart_comm/main.cpp
+iostream
+-
+stdio.h
+-
+serialib.h
+/home/tired_atlas/Projects/Uart_comm/Uart_comm/serialib.h
+
+/home/tired_atlas/Projects/Uart_comm/Uart_comm/serialib.h
+sys/time.h
+-
+windows.h
+-
+stdlib.h
+-
+sys/types.h
+-
+sys/shm.h
+-
+termios.h
+-
+string.h
+-
+iostream
+-
+fcntl.h
+-
+unistd.h
+-
+sys/ioctl.h
+-
+

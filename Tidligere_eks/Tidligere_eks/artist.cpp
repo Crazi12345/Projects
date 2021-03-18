@@ -1,5 +1,5 @@
 #include "artist.h"
-
+#include <iostream>
 Artist::Artist()
 {
 

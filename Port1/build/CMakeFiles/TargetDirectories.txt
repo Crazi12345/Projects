@@ -1,0 +1,3 @@
+/home/tired_atlas/Projects/Port1/build/CMakeFiles/rebuild_cache.dir
+/home/tired_atlas/Projects/Port1/build/CMakeFiles/edit_cache.dir
+/home/tired_atlas/Projects/Port1/build/CMakeFiles/Port1.dir

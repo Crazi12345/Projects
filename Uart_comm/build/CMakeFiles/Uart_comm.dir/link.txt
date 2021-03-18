@@ -1,0 +1,1 @@
+/usr/bin/g++  -O3 -DNDEBUG   CMakeFiles/Uart_comm.dir/main.cpp.o CMakeFiles/Uart_comm.dir/serialib.cpp.o  -o Uart_comm 
