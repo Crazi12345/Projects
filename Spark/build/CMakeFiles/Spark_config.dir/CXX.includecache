@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tired_atlas/Projects/Spark/Spark_config/main.cpp
+iostream
+-
+serialib.h
+/home/tired_atlas/Projects/Spark/Spark_config/serialib.h
+
+/home/tired_atlas/Projects/Spark/Spark_config/serialib.h
+sys/time.h
+-
+windows.h
+-
+stdlib.h
+-
+sys/types.h
+-
+sys/shm.h
+-
+termios.h
+-
+string.h
+-
+iostream
+-
+fcntl.h
+-
+unistd.h
+-
+sys/ioctl.h
+-
+

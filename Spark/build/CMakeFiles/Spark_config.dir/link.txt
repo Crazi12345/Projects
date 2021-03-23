@@ -1,0 +1,1 @@
+/usr/bin/g++  -O3 -DNDEBUG   CMakeFiles/Spark_config.dir/main.cpp.o CMakeFiles/Spark_config.dir/serialib.cpp.o  -o Spark_config 

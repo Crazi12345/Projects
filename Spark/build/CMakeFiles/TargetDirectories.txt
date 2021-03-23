@@ -1,0 +1,3 @@
+/home/tired_atlas/Projects/Spark/build/CMakeFiles/rebuild_cache.dir
+/home/tired_atlas/Projects/Spark/build/CMakeFiles/edit_cache.dir
+/home/tired_atlas/Projects/Spark/build/CMakeFiles/Spark_config.dir
