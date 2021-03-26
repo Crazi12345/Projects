@@ -3,8 +3,7 @@
 #include <vector>
 using namespace std;
 
-PrimeFactor::PrimeFactor(int n)
-{
+PrimeFactor::PrimeFactor(int n){
   for(int i=2;i<100000;i++){
       if(isPrime(n)){
           primeFactors.push_back(n);

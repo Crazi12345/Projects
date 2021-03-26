@@ -34,8 +34,8 @@ int main()
  pfv/30;
  pf/8;
   cout <<endl;
- pfv.divide(45);
- pf.divide(7);
+ pfv.divide(-45);
+ pf.divide(-7);
 
  cout <<"-----------------------------------"<<endl;
  cout<<"Multiplication:  "<<endl;
