@@ -8,20 +8,43 @@ main()
 {
   serialib serial;
   // open the usb port to send and recieve date, else return 1 and error message
-  if (serial.openDevice("/dev/ttyUSB0", 9600)!=1) {
+  if (serial.openDevice("/dev/ttyUSB0", 115200)!=1) {
       cout <<"Please connect your usb device in the given port :)"<<endl<<endl;
       return 1;}
-
 
   /*cout << "input 1 for turning on the led "
           "\nany other number below 128, will turn the led off "
           "\nabove that will terminate the program"<<endl;*/
   char r;
-
+                        unsigned long long test = 0;
+                        int milestone = 0;
   while (true){
-      serial.writeBytes(9,3);
-      serial.readBytes(&buffer,4);
-      cout <<r;
+      char s=serial.readChar(&r);
+
+
+      cout << s<<endl;
+
+
+
+
+
+
+
+
+      string peter(1,r);
+      try{
+          cout <<stoi(peter)<<'\n';
+      }catch(std::invalid_argument){
+          test++;
+        }
+
+        if(test == 100){
+            milestone++;
+            cout << "Milestone reached: " << milestone << endl;
+            test = 0;
+        }
+
+
 
     }
   // Display ASCII characters (from 32 to 128)

@@ -372,6 +372,7 @@ char serialib::readChar(char *pByte,unsigned int timeOut_ms)
     while (timer.elapsedTime_ms()<timeOut_ms || timeOut_ms==0)
     {
         // Try to read a byte on the device
+
         switch (read(fd,pByte,1)) {
         case 1  : return 1; // Read successfull
         case -1 : return -2; // Error while reading
