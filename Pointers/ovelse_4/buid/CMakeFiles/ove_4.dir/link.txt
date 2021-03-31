@@ -1,0 +1,1 @@
+/usr/bin/g++  -O3 -DNDEBUG   CMakeFiles/ove_4.dir/main.cpp.o  -o ove_4 

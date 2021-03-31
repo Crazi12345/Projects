@@ -1,0 +1,3 @@
+/home/tired_atlas/Projects/Pointers/ovelse_4/buid/CMakeFiles/rebuild_cache.dir
+/home/tired_atlas/Projects/Pointers/ovelse_4/buid/CMakeFiles/edit_cache.dir
+/home/tired_atlas/Projects/Pointers/ovelse_4/buid/CMakeFiles/ove_4.dir

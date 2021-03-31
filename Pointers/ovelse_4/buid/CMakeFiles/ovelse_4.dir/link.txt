@@ -1,0 +1,1 @@
+/usr/bin/g++  -O3 -DNDEBUG   CMakeFiles/ovelse_4.dir/main.cpp.o  -o ovelse_4 
