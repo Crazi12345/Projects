@@ -11,8 +11,12 @@ iostream
 -
 stdio.h
 -
+stdlib.h
+-
 serialib.h
 /home/tired_atlas/Projects/Uart_comm/Uart_comm/serialib.h
+vector
+-
 
 /home/tired_atlas/Projects/Uart_comm/Uart_comm/serialib.h
 sys/time.h

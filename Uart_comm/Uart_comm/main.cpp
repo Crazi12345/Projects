@@ -1,10 +1,43 @@
 #include <iostream>
 #include <stdio.h>
+#include <stdlib.h>
 #include "serialib.h"
+#include <vector>
 using namespace std;
 
-int
-main()
+int binToDec(vector<int> bin){
+  int num = 1;
+  int sum =0;
+  for (int i = 0; i<8;i++){
+     // cout<<bin.at(i)<<" ";
+      sum=bin.at(i)*num+sum;
+     // cout << sum<<endl;
+      num = num+num;
+    }
+  return sum;
+}
+
+void print_vec(vector<int> vec){
+  for(int i = 0; i<vec.size();i++){
+      if(i%4==0){
+          cout << " ";
+        }
+      cout << vec.at(i);
+
+    }
+  cout << endl;
+}
+vector<int> binary_vec(int num){
+  vector<int> bin;
+  while(num>0){
+  bin.push_back(num%2);
+  num = num/2;
+    }
+  return bin;
+}
+
+
+int main()
 {
   serialib serial;
   // open the usb port to send and recieve date, else return 1 and error message
@@ -18,16 +51,44 @@ main()
   char r;
                         unsigned long long test = 0;
                         int milestone = 0;
+                        int b;
+                        bool byteRead = false;
   while (true){
-      char s=serial.readChar(&r);
+
+      serial.readBytes(&b,2);
+   //   serial.readChar(&r);
+      if(b!=0){
+        system("clear");
+       cout <<"Raw Read Value: " <<b<<endl;
+       cout <<"Binary Value: ";print_vec(binary_vec(b));
+       cout <<"Decimal Value: "<<binToDec(binary_vec(b))<<endl;
+       serial.readBytes(&b,2);
+       cout <<"Raw Read Value: " <<b<<endl;
+       cout <<"Binary Value: ";print_vec(binary_vec(b));
+       cout <<"Decimal Value: "<<binToDec(binary_vec(b))<<endl;
+
+       usleep(100000);
+    //   byteRead = true;
+
+        }
+      if (byteRead==true){
+
+          break;}
+
+         // cout << "ascii code: "<<r<<" ";
+          //cout << b<<"          ";
 
 
-      cout << s<<endl;
+      /*if (serial.readChar(&r)!=0x2){
+          cout << r;
+        }
+      if(r=='@'){
+          break;
+        }
+*/
 
 
-
-
-
+/*
 
 
 
@@ -45,7 +106,7 @@ main()
         }
 
 
-
+*/
     }
   // Display ASCII characters (from 32 to 128)
   /*for (int c=0;c<128;c++)
