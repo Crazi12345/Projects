@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tired_atlas/Projects/Sokuban/Sokuban/board.cpp
+board.h
+/home/tired_atlas/Projects/Sokuban/Sokuban/board.h
+
+/home/tired_atlas/Projects/Sokuban/Sokuban/board.h
+iostream
+-
+

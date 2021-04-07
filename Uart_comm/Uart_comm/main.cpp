@@ -4,6 +4,11 @@
 #include "serialib.h"
 #include <vector>
 using namespace std;
+int binToHex(vector<int> bin){
+  int hex;
+
+  return hex;
+}
 
 int binToDec(vector<int> bin){
   int num = 1;
@@ -18,11 +23,11 @@ int binToDec(vector<int> bin){
 }
 
 void print_vec(vector<int> vec){
-  for(int i = 0; i<vec.size();i++){
+  for(int i = 1; i<vec.size()+1;i++){
       if(i%4==0){
-          cout << " ";
+         // cout << " ";
         }
-      cout << vec.at(i);
+      cout << vec.at(vec.size()-i);
 
     }
   cout << endl;
@@ -40,10 +45,17 @@ vector<int> binary_vec(int num){
 int main()
 {
   serialib serial;
-  // open the usb port to send and recieve date, else return 1 and error message
-  if (serial.openDevice("/dev/ttyUSB0", 115200)!=1) {
+  serialib serial_write;
+  //open the usb port to send and recieve date, else return 1 and error message
+  if (serial.openDevice("/dev/ttyUSB0", 9600)!=1) {
       cout <<"Please connect your usb device in the given port :)"<<endl<<endl;
-      return 1;}
+      return 1;
+    }
+ /* if (serial_write.openDevice("/dev/ttyACM0", 115200)!=1) {
+      cout <<"Please connect your usb device in the given port2 :)"<<endl<<endl;
+      return 1;
+    }
+*/
 
   /*cout << "input 1 for turning on the led "
           "\nany other number below 128, will turn the led off "
@@ -51,30 +63,35 @@ int main()
   char r;
                         unsigned long long test = 0;
                         int milestone = 0;
-                        int b;
+                        int b = 5;
                         bool byteRead = false;
+                        int num=0;
+                        int c;
   while (true){
 
-      serial.readBytes(&b,2);
-   //   serial.readChar(&r);
-      if(b!=0){
+      serial.readBytes(&b,1);
+   //  serial.readChar(&r);
+     if(b!=0){
         system("clear");
        cout <<"Raw Read Value: " <<b<<endl;
+      if(b>128){
        cout <<"Binary Value: ";print_vec(binary_vec(b));
        cout <<"Decimal Value: "<<binToDec(binary_vec(b))<<endl;
-       serial.readBytes(&b,2);
-       cout <<"Raw Read Value: " <<b<<endl;
-       cout <<"Binary Value: ";print_vec(binary_vec(b));
-       cout <<"Decimal Value: "<<binToDec(binary_vec(b))<<endl;
+}
+      num++;}
+usleep(10000);
+     // cin>>c;
+//serial_write.writeBytes(&c,1);
+/*
+       usleep(10000);
+       byteRead = true;
 
-       usleep(100000);
-    //   byteRead = true;
 
         }
-      if (byteRead==true){
+      if (binToDec(binary_vec(b))==255){
 
           break;}
-
+*/
          // cout << "ascii code: "<<r<<" ";
           //cout << b<<"          ";
 
@@ -124,5 +141,6 @@ int main()
 
 
   // Close the serial device
-  serial.closeDevice();
+ serial.closeDevice();
+  serial_write.closeDevice();
 }

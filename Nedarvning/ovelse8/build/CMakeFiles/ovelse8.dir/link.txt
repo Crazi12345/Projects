@@ -1,0 +1,1 @@
+/usr/bin/g++  -O3 -DNDEBUG   CMakeFiles/ovelse8.dir/main.cpp.o CMakeFiles/ovelse8.dir/part.cpp.o CMakeFiles/ovelse8.dir/subassembly.cpp.o CMakeFiles/ovelse8.dir/simplepart.cpp.o  -o ovelse8 

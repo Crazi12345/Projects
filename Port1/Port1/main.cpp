@@ -7,7 +7,7 @@ int main()
 
  vector<int> vec {2,2,3,5};
  PrimeFactor pfv(vec);
- PrimeFactor pf(80);
+ PrimeFactor pf(10);
 
  cout<<"Print methods:"<<endl;
  pfv.print();
@@ -15,8 +15,8 @@ int main()
 
  cout <<"-----------------------------------"<<endl;
   cout<<"Addition:  "<<endl;
-  pfv+20;
-  pf+9;
+  pfv+2;
+  pf+2;
    cout <<endl;
   pfv.add(10);
   pf.add(5);
@@ -32,15 +32,15 @@ int main()
  cout <<"-----------------------------------"<<endl;
  cout<<"Division:  "<<endl;
  pfv/30;
- pf/8;
+ pf/5;
   cout <<endl;
- pfv.divide(-45);
- pf.divide(-7);
+ pfv.divide(45);
+ pf.divide(7);
 
  cout <<"-----------------------------------"<<endl;
  cout<<"Multiplication:  "<<endl;
  pfv*25;
- pf*10;
+ pf*2;
   cout <<endl;
  pfv.multiply(45);
  pf.multiply(7);

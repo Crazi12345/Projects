@@ -324,8 +324,10 @@ char serialib::writeBytes(const void *Buffer, const unsigned int NbBytes)
 #endif
 #if defined (__linux__) || defined(__APPLE__)
     // Write data
+  //  std::cout<< "Writing" << std::endl;
     if (write (fd,Buffer,NbBytes)!=(ssize_t)NbBytes) return -1;
     // Write operation successfull
+ //   std::cout << "Succes Written"<<std::endl;
     return 1;
 #endif
 }
