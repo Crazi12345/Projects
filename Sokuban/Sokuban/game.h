@@ -1,11 +1,13 @@
 #ifndef GAME_H
 #define GAME_H
+#include <iostream>
+#include "level.h"
 
-
-class game
+class Game
 {
 public:
-  game();
+  Game(/*Level* lvl*/);
+  void run();
 };
 
 #endif // GAME_H

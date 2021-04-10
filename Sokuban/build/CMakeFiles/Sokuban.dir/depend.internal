@@ -4,11 +4,24 @@
 CMakeFiles/Sokuban.dir/board.cpp.o
  /home/tired_atlas/Projects/Sokuban/Sokuban/board.cpp
  /home/tired_atlas/Projects/Sokuban/Sokuban/board.h
+ /home/tired_atlas/Projects/Sokuban/Sokuban/game.h
+ /home/tired_atlas/Projects/Sokuban/Sokuban/level.h
+ /home/tired_atlas/Projects/Sokuban/Sokuban/pos.h
 CMakeFiles/Sokuban.dir/game.cpp.o
+ /home/tired_atlas/Projects/Sokuban/Sokuban/board.h
  /home/tired_atlas/Projects/Sokuban/Sokuban/game.cpp
  /home/tired_atlas/Projects/Sokuban/Sokuban/game.h
+ /home/tired_atlas/Projects/Sokuban/Sokuban/level.h
+ /home/tired_atlas/Projects/Sokuban/Sokuban/pos.h
 CMakeFiles/Sokuban.dir/level.cpp.o
+ /home/tired_atlas/Projects/Sokuban/Sokuban/board.h
+ /home/tired_atlas/Projects/Sokuban/Sokuban/game.h
  /home/tired_atlas/Projects/Sokuban/Sokuban/level.cpp
  /home/tired_atlas/Projects/Sokuban/Sokuban/level.h
+ /home/tired_atlas/Projects/Sokuban/Sokuban/pos.h
 CMakeFiles/Sokuban.dir/main.cpp.o
+ /home/tired_atlas/Projects/Sokuban/Sokuban/board.h
+ /home/tired_atlas/Projects/Sokuban/Sokuban/game.h
+ /home/tired_atlas/Projects/Sokuban/Sokuban/level.h
  /home/tired_atlas/Projects/Sokuban/Sokuban/main.cpp
+ /home/tired_atlas/Projects/Sokuban/Sokuban/pos.h
