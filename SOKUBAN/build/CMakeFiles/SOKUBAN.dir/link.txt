@@ -1,0 +1,1 @@
+/usr/bin/g++  -O3 -DNDEBUG   CMakeFiles/SOKUBAN.dir/main.cpp.o CMakeFiles/SOKUBAN.dir/board.cpp.o CMakeFiles/SOKUBAN.dir/level.cpp.o CMakeFiles/SOKUBAN.dir/game.cpp.o  -o SOKUBAN 
