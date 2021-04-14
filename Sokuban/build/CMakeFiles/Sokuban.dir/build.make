@@ -96,25 +96,25 @@ CMakeFiles/Sokuban.dir/level.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sokuban.dir/level.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tired_atlas/Projects/Sokuban/Sokuban/level.cpp -o CMakeFiles/Sokuban.dir/level.cpp.s
 
-CMakeFiles/Sokuban.dir/board.cpp.o: CMakeFiles/Sokuban.dir/flags.make
-CMakeFiles/Sokuban.dir/board.cpp.o: /home/tired_atlas/Projects/Sokuban/Sokuban/board.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tired_atlas/Projects/Sokuban/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Sokuban.dir/board.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sokuban.dir/board.cpp.o -c /home/tired_atlas/Projects/Sokuban/Sokuban/board.cpp
+CMakeFiles/Sokuban.dir/Board.cpp.o: CMakeFiles/Sokuban.dir/flags.make
+CMakeFiles/Sokuban.dir/Board.cpp.o: /home/tired_atlas/Projects/Sokuban/Sokuban/Board.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tired_atlas/Projects/Sokuban/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Sokuban.dir/Board.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sokuban.dir/Board.cpp.o -c /home/tired_atlas/Projects/Sokuban/Sokuban/Board.cpp
 
-CMakeFiles/Sokuban.dir/board.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sokuban.dir/board.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tired_atlas/Projects/Sokuban/Sokuban/board.cpp > CMakeFiles/Sokuban.dir/board.cpp.i
+CMakeFiles/Sokuban.dir/Board.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sokuban.dir/Board.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tired_atlas/Projects/Sokuban/Sokuban/Board.cpp > CMakeFiles/Sokuban.dir/Board.cpp.i
 
-CMakeFiles/Sokuban.dir/board.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sokuban.dir/board.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tired_atlas/Projects/Sokuban/Sokuban/board.cpp -o CMakeFiles/Sokuban.dir/board.cpp.s
+CMakeFiles/Sokuban.dir/Board.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sokuban.dir/Board.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tired_atlas/Projects/Sokuban/Sokuban/Board.cpp -o CMakeFiles/Sokuban.dir/Board.cpp.s
 
 # Object files for target Sokuban
 Sokuban_OBJECTS = \
 "CMakeFiles/Sokuban.dir/main.cpp.o" \
 "CMakeFiles/Sokuban.dir/game.cpp.o" \
 "CMakeFiles/Sokuban.dir/level.cpp.o" \
-"CMakeFiles/Sokuban.dir/board.cpp.o"
+"CMakeFiles/Sokuban.dir/Board.cpp.o"
 
 # External object files for target Sokuban
 Sokuban_EXTERNAL_OBJECTS =
@@ -122,7 +122,7 @@ Sokuban_EXTERNAL_OBJECTS =
 Sokuban: CMakeFiles/Sokuban.dir/main.cpp.o
 Sokuban: CMakeFiles/Sokuban.dir/game.cpp.o
 Sokuban: CMakeFiles/Sokuban.dir/level.cpp.o
-Sokuban: CMakeFiles/Sokuban.dir/board.cpp.o
+Sokuban: CMakeFiles/Sokuban.dir/Board.cpp.o
 Sokuban: CMakeFiles/Sokuban.dir/build.make
 Sokuban: CMakeFiles/Sokuban.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tired_atlas/Projects/Sokuban/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Sokuban"

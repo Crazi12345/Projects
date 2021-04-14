@@ -1,22 +1,22 @@
 #include "level.h"
 #include "board.h"
 level::level(Board *boad)
-{
-  Pos p,
-  resetPlayer = boad->getPlayerPosition();
-  std::cout << resetPlayer.i;
-    std::cout << resetPlayer.j;
-  for (int j = 0; j<boad->getGridSize().j;j++){
+{ board = boad;
+  Pos p;
 
-      for(int i = 0; i<boad->getGridSize().i;i++){
+
+  for (int j = 0; j<board->getGridSize().j;j++){
+
+      for(int i = 0; i<board->getGridSize().i;i++){
           p.i = i;
           p.j = j;
-          if(boad->isBox(p)){
+          if(board->isBox(p)){
               resetBox.push_back(p);
             }
         }
     }
-  board = boad;
+
+   resetPlayer = board->getPlayerPosition();
 }
 
 bool level::move(Direction d){
@@ -35,10 +35,11 @@ Pos a;
       else if (board->isBox(a)){
 
           ab.j = ab.j-1;
-          if(a.j-1 == 'W'){
+          if(board->getStaticElement(ab)  == 'W'){
               hasMoved = false;
             }
           else{
+
               board->addBox(ab);
               board->removeBox(a);
               board->setPlayerPosition(a);
@@ -53,19 +54,23 @@ Pos a;
     case Direction::D:
       a = board->getPlayerPosition();
      a.j = a.j+1;
+
      if(board->getStaticElement(a) == 'W'){
          hasMoved = false;
        }
+
      else if (board->isBox(a)){
 
          ab.j = ab.j+1;
-         if(a.j+1 == 'W'){
+         if(board->getStaticElement(ab) == 'W'){
+
              hasMoved = false;
            }
          else{
+
              board->addBox(ab);
              board->removeBox(a);
-             board->setPlayerPosition(a);
+            // board->setPlayerPosition(a);
           }
        }
      else {
@@ -84,7 +89,7 @@ Pos a;
      else if (board->isBox(a)){
 
          ab.i = ab.i+1;
-         if(a.i+1 == 'W'){
+         if(board->getStaticElement(ab)  == 'W'){
              hasMoved = false;
            }
          else{
@@ -107,7 +112,7 @@ Pos a;
        } else if (board->isBox(a)){
 
          ab.i = ab.i-1;
-         if(a.i-1 == 'W'){
+         if(board->getStaticElement(ab) == 'W'){
              hasMoved = false;
            }
          else{
@@ -134,23 +139,27 @@ Pos a;
 }
 
 void level::reset(){
-Pos p;
-  board->setPlayerPosition(resetPlayer);
-  for (int j = 0; j<board->getGridSize().j;j++){
+  Pos p;
 
-      for(int i = 0; i<board->getGridSize().i;i++){
-          p.i = i;
-          p.j = j;
-          if(board->isBox(p)){
-              board->removeBox(p);
-              for (int k = 0; k < resetBox.size();k++){
-              board->addBox(resetBox.at(k));
-                }
-            }
-        }
-    }
+  //std::cout <<"J: "<<resetPlayer.j;
+    board->setPlayerPosition(resetPlayer);
+    for (int j = 0; j<board->getGridSize().j;j++){
 
-}
+        for(int i = 0; i<board->getGridSize().i;i++){
+            p.i = i;
+            p.j = j;
+            if(board->isBox(p)){
+                board->removeBox(p);
+
+                  }
+              }
+
+          }
+    for (int k = 0; k < resetBox.size();k++){
+    board->addBox(resetBox.at(k));
+      }
+
+  }
 
 
 std::string level::visualize(){

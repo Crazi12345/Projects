@@ -130,12 +130,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "board.cpp",
+			"path" : "Board.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "board.h",
+			"path" : "Board.h",
 			"sourceGroupIndex" : 1
 		},
 		{

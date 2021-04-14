@@ -117,12 +117,12 @@ else cout<<"ERROR IS NOT DIVISABLE"<<endl;
 
 
 PrimeFactor PrimeFactor::multiply(PrimeFactor n){
-
+vector<int> temp(primeFactors);
     for (int i=0;i<n.primeFactors.size();i++){
-        primeFactors.push_back(n.primeFactors.at(i));
+        temp.push_back(n.primeFactors.at(i));
     }
     print();
-    return primeFactors;
+    return temp;
 }
 
 

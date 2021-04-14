@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/tired_atlas/Projects/Sokuban/Sokuban/board.cpp" "/home/tired_atlas/Projects/Sokuban/build/CMakeFiles/Sokuban.dir/board.cpp.o"
+  "/home/tired_atlas/Projects/Sokuban/Sokuban/Board.cpp" "/home/tired_atlas/Projects/Sokuban/build/CMakeFiles/Sokuban.dir/Board.cpp.o"
   "/home/tired_atlas/Projects/Sokuban/Sokuban/game.cpp" "/home/tired_atlas/Projects/Sokuban/build/CMakeFiles/Sokuban.dir/game.cpp.o"
   "/home/tired_atlas/Projects/Sokuban/Sokuban/level.cpp" "/home/tired_atlas/Projects/Sokuban/build/CMakeFiles/Sokuban.dir/level.cpp.o"
   "/home/tired_atlas/Projects/Sokuban/Sokuban/main.cpp" "/home/tired_atlas/Projects/Sokuban/build/CMakeFiles/Sokuban.dir/main.cpp.o"

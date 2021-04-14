@@ -37,13 +37,13 @@ Pos pb;
 
     }
   staticElements.push_back(bS);
-  for(int j = 0; j<staticElements.size();j++){
+ /* for(int j = 0; j<staticElements.size();j++){
       for(int k = 0; k<bS.size();k++){
          std::cout<< staticElements.at(j).at(k);
         }
       std::cout<<std::endl;
     }
-
+*/
 }
 
 char Board::getStaticElement(Pos p){
@@ -53,9 +53,6 @@ char Board::getStaticElement(Pos p){
 
 Pos Board::getPlayerPosition(){
 
-
-//std::cout << "i: "<<playerPosition.i<<std::endl;
-//std::cout << "j: "<<playerPosition.j<<std::endl;
 return playerPosition;
 
 }

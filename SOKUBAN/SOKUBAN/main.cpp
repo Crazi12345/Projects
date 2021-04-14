@@ -13,22 +13,23 @@ int main()
   level l(&b);
  //cout << b.getStaticElement(b.getPlayerPosition());
 Pos p;
-p.i = 6;
+p.i = 4;
 p.j=3;
 //std::cout << b.isBox(p);
 //b.removeBox(p);
 // cout << b.getStaticElement(b.getPlayerPosition());
 //b.getPlayerPosition();
-cout << b.getGridSize().i;
-cout << b.getGridSize().j;
-cout <<"before move: "<< b.getStaticElement(p)<<endl;
-b.addBox(p);
+
+
+l.reset();
+l.move(level::Direction::D);
+l.visualize();
+
 l.move(level::Direction::R);
 l.visualize();
 
-l.reset();
-l.visualize();
-  cout <<"after move: "<< b.getStaticElement(p)<<endl;
+
+
  // cout << "RIKKE HAR OGSÅ LOV TILAT VÆRE HER"<<endl;
 
   return 0;

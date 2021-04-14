@@ -6,14 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/tired_atlas/Projects/Sokuban/Sokuban/board.cpp
-iostream
--
-vector
--
-board.h
-/home/tired_atlas/Projects/Sokuban/Sokuban/board.h
-
 /home/tired_atlas/Projects/Sokuban/Sokuban/board.h
 iostream
 -
@@ -24,23 +16,17 @@ pos.h
 level.h
 /home/tired_atlas/Projects/Sokuban/Sokuban/level.h
 
-/home/tired_atlas/Projects/Sokuban/Sokuban/game.h
-iostream
--
+/home/tired_atlas/Projects/Sokuban/Sokuban/level.cpp
 level.h
 /home/tired_atlas/Projects/Sokuban/Sokuban/level.h
+iostream
+-
 
 /home/tired_atlas/Projects/Sokuban/Sokuban/level.h
 iostream
 -
-stdlib.h
--
-game.h
-/home/tired_atlas/Projects/Sokuban/Sokuban/game.h
 board.h
 /home/tired_atlas/Projects/Sokuban/Sokuban/board.h
-pos.h
-/home/tired_atlas/Projects/Sokuban/Sokuban/pos.h
 
 /home/tired_atlas/Projects/Sokuban/Sokuban/pos.h
 

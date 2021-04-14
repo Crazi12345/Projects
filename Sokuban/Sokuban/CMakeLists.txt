@@ -8,6 +8,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_executable(Sokuban main.cpp
     game.cpp game.h
     level.cpp level.h
-    board.cpp board.h
+    Board.cpp Board.h
     pos.h
     )

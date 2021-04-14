@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Sokuban.dir/board.cpp.o"
+  "CMakeFiles/Sokuban.dir/Board.cpp.o"
   "CMakeFiles/Sokuban.dir/game.cpp.o"
   "CMakeFiles/Sokuban.dir/level.cpp.o"
   "CMakeFiles/Sokuban.dir/main.cpp.o"

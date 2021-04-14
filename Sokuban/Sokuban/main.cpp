@@ -11,11 +11,11 @@ int main(){
                           "-WWWWWWW");
 
   Board b(boardString);
-  //Level L(&b);
+  level L(&b);
   Pos p;
   p.i =1;
   p.j =1;
-  //L.move(Level::Direction::DOWN);
+ // L.move(Level::Direction::DOWN);
 
   std::cout <<b.getStaticElement(b.getPlayerPosition())<<std::endl;
  // b.setPlayerPosition(P);

@@ -123,32 +123,32 @@ Sokuban/fast:
 	$(MAKE) -f CMakeFiles/Sokuban.dir/build.make CMakeFiles/Sokuban.dir/build
 .PHONY : Sokuban/fast
 
-board.o: board.cpp.o
+Board.o: Board.cpp.o
 
-.PHONY : board.o
+.PHONY : Board.o
 
 # target to build an object file
-board.cpp.o:
-	$(MAKE) -f CMakeFiles/Sokuban.dir/build.make CMakeFiles/Sokuban.dir/board.cpp.o
-.PHONY : board.cpp.o
+Board.cpp.o:
+	$(MAKE) -f CMakeFiles/Sokuban.dir/build.make CMakeFiles/Sokuban.dir/Board.cpp.o
+.PHONY : Board.cpp.o
 
-board.i: board.cpp.i
+Board.i: Board.cpp.i
 
-.PHONY : board.i
+.PHONY : Board.i
 
 # target to preprocess a source file
-board.cpp.i:
-	$(MAKE) -f CMakeFiles/Sokuban.dir/build.make CMakeFiles/Sokuban.dir/board.cpp.i
-.PHONY : board.cpp.i
+Board.cpp.i:
+	$(MAKE) -f CMakeFiles/Sokuban.dir/build.make CMakeFiles/Sokuban.dir/Board.cpp.i
+.PHONY : Board.cpp.i
 
-board.s: board.cpp.s
+Board.s: Board.cpp.s
 
-.PHONY : board.s
+.PHONY : Board.s
 
 # target to generate assembly for a file
-board.cpp.s:
-	$(MAKE) -f CMakeFiles/Sokuban.dir/build.make CMakeFiles/Sokuban.dir/board.cpp.s
-.PHONY : board.cpp.s
+Board.cpp.s:
+	$(MAKE) -f CMakeFiles/Sokuban.dir/build.make CMakeFiles/Sokuban.dir/Board.cpp.s
+.PHONY : Board.cpp.s
 
 game.o: game.cpp.o
 
@@ -240,9 +240,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Sokuban"
-	@echo "... board.o"
-	@echo "... board.i"
-	@echo "... board.s"
+	@echo "... Board.o"
+	@echo "... Board.i"
+	@echo "... Board.s"
 	@echo "... game.o"
 	@echo "... game.i"
 	@echo "... game.s"

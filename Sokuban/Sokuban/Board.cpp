@@ -5,7 +5,7 @@
 
 
 Board::Board(std::string boardString){
-  /*
+
 
   for(int i = 0; i<boardString.length(); i++)
     {
@@ -22,7 +22,7 @@ Board::Board(std::string boardString){
 }
   staticElements.push_back(bS);
    //For test Purpose
-  /*
+
   for(int i = 0; i< staticElements.size();i++){
       for (int k = 0; k<bS.size();k++){
           std::cout<<staticElements.at(i).at(k);
@@ -30,7 +30,7 @@ Board::Board(std::string boardString){
       std::cout <<std::endl;
     }
 }
-*/}
+
 
 /*
 void Board::clear_vector(){
