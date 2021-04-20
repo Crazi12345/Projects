@@ -5,8 +5,11 @@ CMakeFiles/SOKUBAN.dir/board.cpp.o: /home/tired_atlas/Projects/SOKUBAN/SOKUBAN/b
 CMakeFiles/SOKUBAN.dir/board.cpp.o: /home/tired_atlas/Projects/SOKUBAN/SOKUBAN/board.h
 CMakeFiles/SOKUBAN.dir/board.cpp.o: /home/tired_atlas/Projects/SOKUBAN/SOKUBAN/pos.h
 
+CMakeFiles/SOKUBAN.dir/game.cpp.o: /home/tired_atlas/Projects/SOKUBAN/SOKUBAN/board.h
 CMakeFiles/SOKUBAN.dir/game.cpp.o: /home/tired_atlas/Projects/SOKUBAN/SOKUBAN/game.cpp
 CMakeFiles/SOKUBAN.dir/game.cpp.o: /home/tired_atlas/Projects/SOKUBAN/SOKUBAN/game.h
+CMakeFiles/SOKUBAN.dir/game.cpp.o: /home/tired_atlas/Projects/SOKUBAN/SOKUBAN/level.h
+CMakeFiles/SOKUBAN.dir/game.cpp.o: /home/tired_atlas/Projects/SOKUBAN/SOKUBAN/pos.h
 
 CMakeFiles/SOKUBAN.dir/level.cpp.o: /home/tired_atlas/Projects/SOKUBAN/SOKUBAN/board.h
 CMakeFiles/SOKUBAN.dir/level.cpp.o: /home/tired_atlas/Projects/SOKUBAN/SOKUBAN/level.cpp
@@ -14,6 +17,7 @@ CMakeFiles/SOKUBAN.dir/level.cpp.o: /home/tired_atlas/Projects/SOKUBAN/SOKUBAN/l
 CMakeFiles/SOKUBAN.dir/level.cpp.o: /home/tired_atlas/Projects/SOKUBAN/SOKUBAN/pos.h
 
 CMakeFiles/SOKUBAN.dir/main.cpp.o: /home/tired_atlas/Projects/SOKUBAN/SOKUBAN/board.h
+CMakeFiles/SOKUBAN.dir/main.cpp.o: /home/tired_atlas/Projects/SOKUBAN/SOKUBAN/game.h
 CMakeFiles/SOKUBAN.dir/main.cpp.o: /home/tired_atlas/Projects/SOKUBAN/SOKUBAN/level.h
 CMakeFiles/SOKUBAN.dir/main.cpp.o: /home/tired_atlas/Projects/SOKUBAN/SOKUBAN/main.cpp
 CMakeFiles/SOKUBAN.dir/main.cpp.o: /home/tired_atlas/Projects/SOKUBAN/SOKUBAN/pos.h

@@ -121,6 +121,16 @@ vector<int> temp(primeFactors);
     for (int i=0;i<n.primeFactors.size();i++){
         temp.push_back(n.primeFactors.at(i));
     }
+    int temp_num;
+    for(int j = 0; j < temp.size()-1;j++){
+        if(temp.at(j)>temp.at(j+1)){
+            temp_num = temp.at(j+1);
+            temp.at(j+1) = temp.at(j);
+            temp.at(j) = temp_num;
+            j=0;
+
+          }
+      }
     print();
     return temp;
 }

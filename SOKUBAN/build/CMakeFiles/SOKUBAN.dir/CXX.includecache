@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/tired_atlas/Projects/SOKUBAN/SOKUBAN/board.cpp
+board.h
+/home/tired_atlas/Projects/SOKUBAN/SOKUBAN/board.h
+
 /home/tired_atlas/Projects/SOKUBAN/SOKUBAN/board.h
 pos.h
 /home/tired_atlas/Projects/SOKUBAN/SOKUBAN/pos.h
@@ -14,19 +18,17 @@ iostream
 vector
 -
 
+/home/tired_atlas/Projects/SOKUBAN/SOKUBAN/level.cpp
+level.h
+/home/tired_atlas/Projects/SOKUBAN/SOKUBAN/level.h
+board.h
+/home/tired_atlas/Projects/SOKUBAN/SOKUBAN/board.h
+
 /home/tired_atlas/Projects/SOKUBAN/SOKUBAN/level.h
 board.h
 /home/tired_atlas/Projects/SOKUBAN/SOKUBAN/board.h
 pos.h
 /home/tired_atlas/Projects/SOKUBAN/SOKUBAN/pos.h
-
-/home/tired_atlas/Projects/SOKUBAN/SOKUBAN/main.cpp
-iostream
--
-board.h
-/home/tired_atlas/Projects/SOKUBAN/SOKUBAN/board.h
-level.h
-/home/tired_atlas/Projects/SOKUBAN/SOKUBAN/level.h
 
 /home/tired_atlas/Projects/SOKUBAN/SOKUBAN/pos.h
 

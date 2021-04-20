@@ -1,0 +1,3 @@
+/home/tired_atlas/Projects/sokuban_final_v3/build/CMakeFiles/rebuild_cache.dir
+/home/tired_atlas/Projects/sokuban_final_v3/build/CMakeFiles/edit_cache.dir
+/home/tired_atlas/Projects/sokuban_final_v3/build/CMakeFiles/Sokuban.dir

@@ -2,31 +2,31 @@
 
 Board::Board(std::string boardString){
 
-   int count = 0;
+  int count = 0;
 Pos pb;
-  for (int i = 0; i<boardString.length();i++){
-      switch (boardString[i]){
-        case 'P':
-          playerPosition.i = i%(count*9);
-          playerPosition.j = count;
-          bS.push_back('.');
-          break;
-        case 'o':
-           pb.i = i%(count*9);
-           pb.j = count;
-           boxes.push_back(pb);
-           bS.push_back('.');
-
-          break;
-        case 'O':
+ for (int i = 0; i<boardString.length();i++){
+     switch (boardString[i]){
+       case 'P':
+         playerPosition.i = i%(count*9);
+         playerPosition.j = count;
+         bS.push_back('.');
+         break;
+       case 'o':
           pb.i = i%(count*9);
           pb.j = count;
           boxes.push_back(pb);
-           bS.push_back('x');
-          break;
-        case '\n':
-          staticElements.push_back(bS);
-          count++;
+          bS.push_back('.');
+
+         break;
+       case 'O':
+         pb.i = i%(count*9);
+         pb.j = count;
+         boxes.push_back(pb);
+          bS.push_back('x');
+         break;
+       case '\n':
+         staticElements.push_back(bS);
+         count++;
           bS.clear();
           break;
         default:
@@ -64,7 +64,7 @@ playerPosition.j = p.j;
 }
 
 bool Board::addBox(Pos p){
-  char c = staticElements.at(p.j).at(p.j);
+  char c = staticElements.at(p.j).at(p.i);
   bool allowed;
   switch (c){
     case '.':

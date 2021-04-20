@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tired_atlas/Projects/sokuban_final_v3/Sokuban/board.h
+pos.h
+/home/tired_atlas/Projects/sokuban_final_v3/Sokuban/pos.h
+iostream
+-
+vector
+-
+
+/home/tired_atlas/Projects/sokuban_final_v3/Sokuban/game.cpp
+game.h
+/home/tired_atlas/Projects/sokuban_final_v3/Sokuban/game.h
+level.h
+/home/tired_atlas/Projects/sokuban_final_v3/Sokuban/level.h
+
+/home/tired_atlas/Projects/sokuban_final_v3/Sokuban/game.h
+level.h
+/home/tired_atlas/Projects/sokuban_final_v3/Sokuban/level.h
+
+/home/tired_atlas/Projects/sokuban_final_v3/Sokuban/level.h
+board.h
+/home/tired_atlas/Projects/sokuban_final_v3/Sokuban/board.h
+pos.h
+/home/tired_atlas/Projects/sokuban_final_v3/Sokuban/pos.h
+
+/home/tired_atlas/Projects/sokuban_final_v3/Sokuban/pos.h
+

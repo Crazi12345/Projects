@@ -10,7 +10,7 @@ int main()
 	(a / b).print();
 
 	PrimeFactor c(1000);
-	PrimeFactor d(100)
+	PrimeFactor d(100);
 	c.print();
 	d.print();
 

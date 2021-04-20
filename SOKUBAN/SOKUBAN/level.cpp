@@ -1,6 +1,6 @@
 #include "level.h"
 #include "board.h"
-level::level(Board *boad)
+Level::Level(Board *boad)
 { board = boad;
   Pos p;
 
@@ -19,25 +19,27 @@ level::level(Board *boad)
    resetPlayer = board->getPlayerPosition();
 }
 
-bool level::move(Direction d){
- // std::cout<<"RIKKE ER OKAY NOGEN GANGE"<<std::endl;
+bool Level::move(Direction d){
   bool hasMoved = true;
-Pos a;
+Pos a = board->getPlayerPosition();
  Pos ab;
-//std::cout << "Test: "<<board->getStaticElement(board->getPlayerPosition());
+
   switch (d) {
-    case Direction::U:
-       a = board->getPlayerPosition();
+    case Direction::UP:
+
       a.j = a.j-1;
+      ab = a;
       if(board->getStaticElement(a) == 'W'){
           hasMoved = false;
         }
       else if (board->isBox(a)){
-
           ab.j = ab.j-1;
           if(board->getStaticElement(ab)  == 'W'){
               hasMoved = false;
             }
+          else if(board->isBox(ab)){
+               hasMoved = false;
+             }
           else{
 
               board->addBox(ab);
@@ -51,10 +53,10 @@ Pos a;
      // std::cout<< "U";
       break;
 
-    case Direction::D:
-      a = board->getPlayerPosition();
-     a.j = a.j+1;
+    case Direction::DOWN:
 
+     a.j = a.j+1;
+      ab = a;
      if(board->getStaticElement(a) == 'W'){
          hasMoved = false;
        }
@@ -66,11 +68,14 @@ Pos a;
 
              hasMoved = false;
            }
+         else if(board->isBox(ab)){
+              hasMoved = false;
+            }
          else{
 
              board->addBox(ab);
              board->removeBox(a);
-            // board->setPlayerPosition(a);
+             board->setPlayerPosition(a);
           }
        }
      else {
@@ -80,9 +85,10 @@ Pos a;
        }
       break;
 
-     case Direction::R:
-      a = board->getPlayerPosition();
+     case Direction::RIGHT:
+
      a.i = a.i+1;
+     ab = a;
      if(board->getStaticElement(a) == 'W'){
          hasMoved = false;
        }
@@ -92,7 +98,11 @@ Pos a;
          if(board->getStaticElement(ab)  == 'W'){
              hasMoved = false;
            }
+         else if(board->isBox(ab)){
+              hasMoved = false;
+            }
          else{
+
              board->addBox(ab);
              board->removeBox(a);
              board->setPlayerPosition(a);
@@ -104,9 +114,10 @@ Pos a;
        }
       break;
 
-     case Direction::L:
-      a = board->getPlayerPosition();
+     case Direction::LEFT:
+
      a.i = a.i-1;
+     ab = a;
      if(board->getStaticElement(a) == 'W'){
          hasMoved = false;
        } else if (board->isBox(a)){
@@ -115,8 +126,13 @@ Pos a;
          if(board->getStaticElement(ab) == 'W'){
              hasMoved = false;
            }
+         else if(board->isBox(ab)){
+              hasMoved = false;
+            }
+
          else{
              board->removeBox(a);
+
              board->addBox(ab);
 
              board->setPlayerPosition(a);
@@ -138,7 +154,7 @@ Pos a;
 
 }
 
-void level::reset(){
+void Level::reset(){
   Pos p;
 
   //std::cout <<"J: "<<resetPlayer.j;
@@ -162,8 +178,9 @@ void level::reset(){
   }
 
 
-std::string level::visualize(){
+std::string Level::visualize(){
   Pos p;
+    system("clear");
   for(int j = 0;j<(board->getGridSize().j);j++){
       for(int i = 0; i<board->getGridSize().i;i++){
          p.j = j;
@@ -185,6 +202,22 @@ std::string level::visualize(){
         }
       std::cout << std::endl;
     }
-
   return "string";
+}
+bool Level::isDone(){
+  Pos p;
+  bool isGameDone=true;
+  for(int j = 0; j < board->getGridSize().j;j++){
+
+      for(int i = 0; i < board->getGridSize().i;i++){
+          p.i = i;
+          p.j = j;
+          if (board->isBox(p)){
+              if(board->getStaticElement(p)!='x'){
+                  isGameDone = false;
+                }
+            }
+        }
+    }
+  return isGameDone;
 }
