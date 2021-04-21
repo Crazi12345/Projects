@@ -7,7 +7,6 @@ class Level
 {
 public:
   Level(Board *board);
-
   bool move(Direction d);
   void reset();
   std::string visualize();

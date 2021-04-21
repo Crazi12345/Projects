@@ -18,7 +18,7 @@ Level::Level(Board *boad)
 
 
 bool Level::move(Direction d){
-  bool hasMoved = true;
+bool hasMoved = true;
 Pos a = board->getPlayerPosition();
 Pos ab;
   switch (d) {
@@ -46,7 +46,6 @@ Pos ab;
       else {
           board->setPlayerPosition(a);
         }
-     // std::cout<< "U";
       break;
 
     case Direction::DOWN:
@@ -123,7 +122,6 @@ Pos ab;
           }
        }
      else {
-
          board->setPlayerPosition(a);
        }
       break;
@@ -133,6 +131,7 @@ Pos ab;
     }
   return hasMoved;
 }
+
 
 void Level::reset(){
   Pos p;
@@ -146,7 +145,6 @@ void Level::reset(){
             p.i = j;
             if(board->isBox(p)){
                 board->removeBox(p);
-
                   }
               }
           }
@@ -159,32 +157,27 @@ void Level::reset(){
 std::string Level::visualize(){
   Pos p;
   std::string newBoard;
-    //system("clear");
+    //system("clear");                                 // This is used to clear the console, uncomment for a better game experience, just bad for the test file
   for(int j = 0;j<(board->getGridSize().i);j++){
       for(int i = 0; i<board->getGridSize().j;i++){
          p.i = j;
          p.j = i;
          if(p.i == board->getPlayerPosition().i &&
             p.j == board->getPlayerPosition().j){
-             //std::cout<<'P';
              newBoard.push_back('P');
            }
           else if (board->isBox(p)){
              if(board->getStaticElement(p)=='x'){
-                 //std::cout<<'O';
                  newBoard.push_back('O');
                }
              else {
-               //  std::cout<<'o';
                  newBoard.push_back('o');
                }
            }
          else{
-         //std::cout << board->getStaticElement(p);
            newBoard.push_back(board->getStaticElement(p));
            }
         }
-      //std::cout << std::endl;
       newBoard.push_back('\n');
     }
 

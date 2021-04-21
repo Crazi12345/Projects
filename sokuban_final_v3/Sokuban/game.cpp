@@ -5,8 +5,8 @@ Game::Game(Level* Level){
 }
 
 void Game::run(){
-  std::string input;
-  std::cout << lvl->visualize()<<std::endl;
+ std::string input;
+ std::cout << lvl->visualize()<<std::endl;
   while(lvl->isDone() == false){
       std::cout<<"please input UP DOWN LEFT RIGHT"<<std::endl;
       std::cin >> input;
@@ -26,12 +26,9 @@ if(input == "UP" || input == "up"|| input == "w"){
          lvl->reset();
         }
     else {
-
     std::cout<< "you have given med det worng input" << std::endl;
-
         }
 std::cout << lvl->visualize()<<std::endl;
     }
-
   std::cout<<"CONGRATZ, YOU HAVE BEAT THIS LEVEL"<<std::endl;
 }

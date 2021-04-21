@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/home/tired_atlas/Projects/sokuban_final_v3/Sokuban/board.cpp
+board.h
+/home/tired_atlas/Projects/sokuban_final_v3/Sokuban/board.h
+pos.h
+/home/tired_atlas/Projects/sokuban_final_v3/Sokuban/pos.h
+
 /home/tired_atlas/Projects/sokuban_final_v3/Sokuban/board.h
 pos.h
 /home/tired_atlas/Projects/sokuban_final_v3/Sokuban/pos.h
@@ -24,11 +30,29 @@ level.h
 level.h
 /home/tired_atlas/Projects/sokuban_final_v3/Sokuban/level.h
 
+/home/tired_atlas/Projects/sokuban_final_v3/Sokuban/level.cpp
+level.h
+/home/tired_atlas/Projects/sokuban_final_v3/Sokuban/level.h
+board.h
+/home/tired_atlas/Projects/sokuban_final_v3/Sokuban/board.h
+
 /home/tired_atlas/Projects/sokuban_final_v3/Sokuban/level.h
 board.h
 /home/tired_atlas/Projects/sokuban_final_v3/Sokuban/board.h
 pos.h
 /home/tired_atlas/Projects/sokuban_final_v3/Sokuban/pos.h
+
+/home/tired_atlas/Projects/sokuban_final_v3/Sokuban/main.cpp
+iostream
+-
+pos.h
+/home/tired_atlas/Projects/sokuban_final_v3/Sokuban/pos.h
+board.h
+/home/tired_atlas/Projects/sokuban_final_v3/Sokuban/board.h
+level.h
+/home/tired_atlas/Projects/sokuban_final_v3/Sokuban/level.h
+game.h
+/home/tired_atlas/Projects/sokuban_final_v3/Sokuban/game.h
 
 /home/tired_atlas/Projects/sokuban_final_v3/Sokuban/pos.h
 

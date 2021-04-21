@@ -2,15 +2,8 @@
 #define POS_H
 struct Pos{
   Pos(){}
-
-  Pos(int ii, int jj):i(ii), j(jj)
-
-  {
-
-  }
-
+  Pos(int ii, int jj):i(ii), j(jj){}
   int i;
-
   int j;
 };
 
