@@ -1,0 +1,3 @@
+/home/tired_atlas/Projects/Tid_eks/Jan_18/build/CMakeFiles/rebuild_cache.dir
+/home/tired_atlas/Projects/Tid_eks/Jan_18/build/CMakeFiles/edit_cache.dir
+/home/tired_atlas/Projects/Tid_eks/Jan_18/build/CMakeFiles/OPG1.dir

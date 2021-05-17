@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tired_atlas/Projects/Tid_eks/Jan_18/OPG1/ema.cpp
+ema.h
+/home/tired_atlas/Projects/Tid_eks/Jan_18/OPG1/ema.h
+iostream
+-
+
+/home/tired_atlas/Projects/Tid_eks/Jan_18/OPG1/ema.h
+iostream
+-
+
+/home/tired_atlas/Projects/Tid_eks/Jan_18/OPG1/main.cpp
+iostream
+-
+ema.h
+/home/tired_atlas/Projects/Tid_eks/Jan_18/OPG1/ema.h
+

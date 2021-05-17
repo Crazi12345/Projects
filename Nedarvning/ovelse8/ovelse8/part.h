@@ -5,10 +5,10 @@
 class Part
 {
 public:
-  Part();
-  virtual std::string getName()=0;
-  virtual std::string getDescription();
-  virtual double getCost()=0;
+   Part();
+   virtual std::string getName();
+   virtual std::string getDescription();
+   virtual double getCost();
 };
 
 #endif // PART_H

@@ -6,25 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/tired_atlas/Projects/Nedarvning/ovelse8/ovelse8/main.cpp
-iostream
--
-
 /home/tired_atlas/Projects/Nedarvning/ovelse8/ovelse8/part.cpp
 part.h
 /home/tired_atlas/Projects/Nedarvning/ovelse8/ovelse8/part.h
 
 /home/tired_atlas/Projects/Nedarvning/ovelse8/ovelse8/part.h
-
-/home/tired_atlas/Projects/Nedarvning/ovelse8/ovelse8/simplepart.cpp
-simplepart.h
-/home/tired_atlas/Projects/Nedarvning/ovelse8/ovelse8/simplepart.h
-
-/home/tired_atlas/Projects/Nedarvning/ovelse8/ovelse8/simplepart.h
-
-/home/tired_atlas/Projects/Nedarvning/ovelse8/ovelse8/subassembly.cpp
-subassembly.h
-/home/tired_atlas/Projects/Nedarvning/ovelse8/ovelse8/subassembly.h
-
-/home/tired_atlas/Projects/Nedarvning/ovelse8/ovelse8/subassembly.h
+iostream
+-
 

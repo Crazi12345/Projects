@@ -1,0 +1,1 @@
+/usr/bin/g++ -O3 -DNDEBUG CMakeFiles/OPG1.dir/main.cpp.o CMakeFiles/OPG1.dir/ema.cpp.o -o OPG1 

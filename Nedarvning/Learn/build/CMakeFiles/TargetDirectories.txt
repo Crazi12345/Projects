@@ -1,0 +1,3 @@
+/home/tired_atlas/Projects/Nedarvning/Learn/build/CMakeFiles/rebuild_cache.dir
+/home/tired_atlas/Projects/Nedarvning/Learn/build/CMakeFiles/edit_cache.dir
+/home/tired_atlas/Projects/Nedarvning/Learn/build/CMakeFiles/LEARN.dir
