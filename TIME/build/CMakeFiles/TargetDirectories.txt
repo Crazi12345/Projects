@@ -1,0 +1,3 @@
+/home/tired_atlas/Projects/TIME/build/CMakeFiles/edit_cache.dir
+/home/tired_atlas/Projects/TIME/build/CMakeFiles/rebuild_cache.dir
+/home/tired_atlas/Projects/TIME/build/CMakeFiles/Primes.dir
