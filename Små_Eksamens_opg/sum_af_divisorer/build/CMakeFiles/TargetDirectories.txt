@@ -1,0 +1,3 @@
+/home/tired_atlas/Projects/Små_Eksamens_opg/sum_af_divisorer/build/CMakeFiles/rebuild_cache.dir
+/home/tired_atlas/Projects/Små_Eksamens_opg/sum_af_divisorer/build/CMakeFiles/edit_cache.dir
+/home/tired_atlas/Projects/Små_Eksamens_opg/sum_af_divisorer/build/CMakeFiles/Divisorer.dir

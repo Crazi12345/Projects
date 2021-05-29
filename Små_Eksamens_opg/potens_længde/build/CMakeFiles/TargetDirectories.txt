@@ -1,0 +1,3 @@
+/home/tired_atlas/Projects/Små_Eksamens_opg/potens_længde/build/CMakeFiles/edit_cache.dir
+/home/tired_atlas/Projects/Små_Eksamens_opg/potens_længde/build/CMakeFiles/rebuild_cache.dir
+/home/tired_atlas/Projects/Små_Eksamens_opg/potens_længde/build/CMakeFiles/potens.dir

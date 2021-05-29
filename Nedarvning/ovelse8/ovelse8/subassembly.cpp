@@ -20,9 +20,9 @@ for(int i = 0; i<_name.length(); i++){
 }
 temp.push_back('{');
 for (int j = 0; j < _parts.size();j++){
-
     for(int k =0; k<_parts[j]->getName().length();k++){
         temp.push_back(_parts[j]->getName()[k]);
+
     }
     temp.push_back(',');
         temp.push_back(' ');

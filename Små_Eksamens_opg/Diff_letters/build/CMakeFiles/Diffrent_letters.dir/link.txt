@@ -1,0 +1,1 @@
+/usr/bin/g++ -O3 -DNDEBUG CMakeFiles/Diffrent_letters.dir/main.cpp.o -o Diffrent_letters 

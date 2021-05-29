@@ -6,11 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/home/tired_atlas/Projects/Nedarvning/ovelse8/ovelse8/part.cpp
+/home/tired_atlas/Projects/Nedarvning/ovelse8/ovelse8/main.cpp
+iostream
+-
 part.h
 /home/tired_atlas/Projects/Nedarvning/ovelse8/ovelse8/part.h
+simplepart.h
+/home/tired_atlas/Projects/Nedarvning/ovelse8/ovelse8/simplepart.h
+subassembly.h
+/home/tired_atlas/Projects/Nedarvning/ovelse8/ovelse8/subassembly.h
 
 /home/tired_atlas/Projects/Nedarvning/ovelse8/ovelse8/part.h
 iostream
+-
+
+/home/tired_atlas/Projects/Nedarvning/ovelse8/ovelse8/simplepart.h
+iostream
+-
+part.h
+/home/tired_atlas/Projects/Nedarvning/ovelse8/ovelse8/part.h
+
+/home/tired_atlas/Projects/Nedarvning/ovelse8/ovelse8/subassembly.h
+part.h
+/home/tired_atlas/Projects/Nedarvning/ovelse8/ovelse8/part.h
+iostream
+-
+vector
 -
 

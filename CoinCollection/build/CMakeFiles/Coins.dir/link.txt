@@ -1,0 +1,1 @@
+/usr/bin/g++ -O3 -DNDEBUG CMakeFiles/Coins.dir/main.cpp.o CMakeFiles/Coins.dir/coin.cpp.o CMakeFiles/Coins.dir/coincollection.cpp.o CMakeFiles/Coins.dir/country.cpp.o -o Coins 

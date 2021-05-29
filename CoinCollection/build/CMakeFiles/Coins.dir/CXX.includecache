@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tired_atlas/Projects/CoinCollection/Coins/coin.cpp
+coin.h
+/home/tired_atlas/Projects/CoinCollection/Coins/coin.h
+
+/home/tired_atlas/Projects/CoinCollection/Coins/coin.h
+country.h
+/home/tired_atlas/Projects/CoinCollection/Coins/country.h
+string
+-
+
+/home/tired_atlas/Projects/CoinCollection/Coins/coincollection.cpp
+coincollection.h
+/home/tired_atlas/Projects/CoinCollection/Coins/coincollection.h
+iostream
+-
+
+/home/tired_atlas/Projects/CoinCollection/Coins/coincollection.h
+coin.h
+/home/tired_atlas/Projects/CoinCollection/Coins/coin.h
+
+/home/tired_atlas/Projects/CoinCollection/Coins/country.h
+string
+-
+
+/home/tired_atlas/Projects/CoinCollection/Coins/main.cpp
+iostream
+-
+coincollection.h
+/home/tired_atlas/Projects/CoinCollection/Coins/coincollection.h
+coin.h
+/home/tired_atlas/Projects/CoinCollection/Coins/coin.h
+country.h
+/home/tired_atlas/Projects/CoinCollection/Coins/country.h
+

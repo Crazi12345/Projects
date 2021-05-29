@@ -1,7 +1,7 @@
 #include "part.h"
-Part::Part(){
-
-}
+#include <iostream>
+#include <string>
+,
 
 std::string Part::getName()
 {
@@ -10,6 +10,8 @@ std::string Part::getName()
 
 std::string Part::getDescription()
 {
+
+
     return "string";
 }
 

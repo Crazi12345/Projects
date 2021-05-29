@@ -1,0 +1,1 @@
+/usr/bin/g++ -O3 -DNDEBUG CMakeFiles/Largest_produt_in_grid.dir/main.cpp.o -o Largest_produt_in_grid 

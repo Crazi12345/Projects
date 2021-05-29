@@ -1,0 +1,3 @@
+/home/tired_atlas/Projects/Små_Eksamens_opg/kvdrattal/build/CMakeFiles/rebuild_cache.dir
+/home/tired_atlas/Projects/Små_Eksamens_opg/kvdrattal/build/CMakeFiles/edit_cache.dir
+/home/tired_atlas/Projects/Små_Eksamens_opg/kvdrattal/build/CMakeFiles/kvadrattal.dir

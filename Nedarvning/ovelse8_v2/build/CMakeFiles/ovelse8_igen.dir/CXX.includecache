@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tired_atlas/Projects/Nedarvning/ovelse8_v2/ovelse8_igen/main.cpp
+iostream
+-
+
+/home/tired_atlas/Projects/Nedarvning/ovelse8_v2/ovelse8_igen/part.cpp
+part.h
+/home/tired_atlas/Projects/Nedarvning/ovelse8_v2/ovelse8_igen/part.h
+
+/home/tired_atlas/Projects/Nedarvning/ovelse8_v2/ovelse8_igen/part.h
+
+/home/tired_atlas/Projects/Nedarvning/ovelse8_v2/ovelse8_igen/simplepart.cpp
+simplepart.h
+/home/tired_atlas/Projects/Nedarvning/ovelse8_v2/ovelse8_igen/simplepart.h
+
+/home/tired_atlas/Projects/Nedarvning/ovelse8_v2/ovelse8_igen/simplepart.h
+
+/home/tired_atlas/Projects/Nedarvning/ovelse8_v2/ovelse8_igen/subassembly.cpp
+subassembly.h
+/home/tired_atlas/Projects/Nedarvning/ovelse8_v2/ovelse8_igen/subassembly.h
+
+/home/tired_atlas/Projects/Nedarvning/ovelse8_v2/ovelse8_igen/subassembly.h
+

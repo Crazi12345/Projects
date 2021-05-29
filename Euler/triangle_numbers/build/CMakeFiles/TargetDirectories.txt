@@ -1,0 +1,3 @@
+/home/tired_atlas/Projects/Euler/triangle_numbers/build/CMakeFiles/rebuild_cache.dir
+/home/tired_atlas/Projects/Euler/triangle_numbers/build/CMakeFiles/edit_cache.dir
+/home/tired_atlas/Projects/Euler/triangle_numbers/build/CMakeFiles/Tri_nums.dir

@@ -1,0 +1,3 @@
+/home/tired_atlas/Projects/Nedarvning/ovelse8_v2/build/CMakeFiles/rebuild_cache.dir
+/home/tired_atlas/Projects/Nedarvning/ovelse8_v2/build/CMakeFiles/edit_cache.dir
+/home/tired_atlas/Projects/Nedarvning/ovelse8_v2/build/CMakeFiles/ovelse8_igen.dir

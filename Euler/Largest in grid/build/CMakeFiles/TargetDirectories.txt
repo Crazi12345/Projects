@@ -1,0 +1,3 @@
+/home/tired_atlas/Projects/Euler/Largest in grid/build/CMakeFiles/rebuild_cache.dir
+/home/tired_atlas/Projects/Euler/Largest in grid/build/CMakeFiles/edit_cache.dir
+/home/tired_atlas/Projects/Euler/Largest in grid/build/CMakeFiles/Largest_produt_in_grid.dir

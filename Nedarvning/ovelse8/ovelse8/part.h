@@ -5,7 +5,6 @@
 class Part
 {
 public:
-   Part();
    virtual std::string getName();
    virtual std::string getDescription();
    virtual double getCost();

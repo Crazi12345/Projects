@@ -33,5 +33,6 @@ int main()
     finalProduct.addPart(&gripper);
     std::cout<<finalProduct.getDescription()<<std::endl;
     std::cout<<"cost:"<<finalProduct.getCost()<<std::endl;
+
     //4+12.8+11.2+100=128
 }
