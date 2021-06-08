@@ -38,7 +38,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "3-1-fri_leg::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-3-1-fri_leg-Release-03f3c1ed370c6180416b.json",
+					"jsonFile" : "target-3-1-fri_leg-Release-53c653d9fbabd0b6f3a9.json",
 					"name" : "3-1-fri_leg",
 					"projectIndex" : 0
 				}
@@ -54,6 +54,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 0
+		"minor" : 1
 	}
 }

@@ -7,12 +7,12 @@ class CoinCollection
 public:
     CoinCollection();
 
-    void addCoin(Coin c);
+    void addCoin(Coin &c);
     int getTotalValue();
     int getTotalValueDecade(int decade);
 private:
     int count = 0;
-    Coin arr[300];
+    Coin* arr[300];
 };
 
 #endif // COINCOLLECTION_H

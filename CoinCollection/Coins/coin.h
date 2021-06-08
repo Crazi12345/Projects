@@ -14,6 +14,7 @@ public:
     int getFaceValue();
     int getValue();
     void changeValue(int);
+    int setValue();
     ~Coin();
 private:
     Country country;
@@ -21,7 +22,8 @@ private:
     int yearIssued;
     std::string motive;
     int faceValue;
-    int value;
+    int _value;
+
 
 
 

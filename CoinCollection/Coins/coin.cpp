@@ -1,5 +1,5 @@
 #include "coin.h"
-
+#include <iostream>
 Coin::Coin()
 {
 
@@ -11,7 +11,8 @@ Coin::Coin(Country& land, int cat, int year,
     yearIssued=year;
     motive =_motive;
     faceValue = fvalue;
-    value = catValue;
+    _value = catValue;
+
 
 }
 
@@ -39,16 +40,21 @@ int Coin::getFaceValue()
 {
     return faceValue;
 }
-
-int Coin::getValue()
-{
-    return value;
-}
-
 void Coin::changeValue(int num)
 {
-    value = value + num;
+    _value = _value+num;
+
 }
+int Coin::setValue(){
+
+}
+int Coin::getValue()
+{
+    return _value;
+
+}
+
+
 
 Coin::~Coin()
 {
