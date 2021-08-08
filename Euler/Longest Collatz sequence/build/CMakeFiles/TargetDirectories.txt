@@ -1,0 +1,3 @@
+/home/tired_atlas/Projects/Euler/Longest Collatz sequence/build/CMakeFiles/rebuild_cache.dir
+/home/tired_atlas/Projects/Euler/Longest Collatz sequence/build/CMakeFiles/edit_cache.dir
+/home/tired_atlas/Projects/Euler/Longest Collatz sequence/build/CMakeFiles/lcs.dir

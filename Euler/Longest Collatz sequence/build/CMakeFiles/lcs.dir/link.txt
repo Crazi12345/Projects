@@ -1,0 +1,1 @@
+/usr/bin/g++ -O3 -DNDEBUG CMakeFiles/lcs.dir/main.cpp.o -o lcs 

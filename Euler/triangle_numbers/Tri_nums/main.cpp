@@ -5,23 +5,42 @@ using namespace std;
 
 int main()
 {
-int sum =1;
-int dive =0;
-vector<int> nums;
-  int num[100][500];
-  num[0][0] = 1;
-  for(int i = 0; i<10;i++){
-    for(int j = 0; j<i+1;j++){
-       num[i+1][j]=num[i][0];
-       cout << num[i][j]<< " ";
-    }
+    int num =1;
+    int count=1;
+    int readBuffer=0;
+    int progress =0;
+    for(int i = 2; i<20000;i++){
+        count =1;
+         //cout << num << endl;
+         num = num +i;
+         readBuffer++;
+         if(readBuffer==1000){
+             progress++;
+             cout << "you are ("<<progress<<"/20)" <<endl;
+             readBuffer = 0;
+         }
+         if(num%2!=0){
+             for(int j = 1; j <=num/2;j++){
+                 j++;
+                  if(num%j==0){
+                     count++;
+                     if(count==500){
+                         cout <<num<<endl<<endl;
 
-cout <<endl;
-  }
-       cout << endl;
-        nums.clear();
-       // cout << whole_sum<<endl;
+                     }
+         }}}
+         else{
+        for(int j = 1; j <=num/2;j++){
+             if(num%j==0){
+                count++;
+                if(count==500){
+                    cout <<num<<endl<<endl;
 
+                }
+
+            }
+        }
+    }}
 
     return 0;
 }

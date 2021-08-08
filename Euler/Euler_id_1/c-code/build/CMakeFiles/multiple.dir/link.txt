@@ -1,0 +1,1 @@
+/usr/bin/gcc -O3 -DNDEBUG CMakeFiles/multiple.dir/main.c.o -o multiple 

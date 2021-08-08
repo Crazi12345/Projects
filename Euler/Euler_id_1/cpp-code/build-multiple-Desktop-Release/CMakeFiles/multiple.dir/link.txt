@@ -1,0 +1,1 @@
+/usr/bin/g++ -O3 -DNDEBUG CMakeFiles/multiple.dir/main.cpp.o -o multiple 

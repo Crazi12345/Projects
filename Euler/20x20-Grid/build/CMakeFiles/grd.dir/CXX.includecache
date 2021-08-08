@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tired_atlas/Projects/Euler/20x20-Grid/Grid/grd/main.cpp
+iostream
+-
+string
+-
+vector
+-
+

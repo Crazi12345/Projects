@@ -1,0 +1,3 @@
+/home/tired_atlas/Projects/Euler/20x20-Grid/build/CMakeFiles/rebuild_cache.dir
+/home/tired_atlas/Projects/Euler/20x20-Grid/build/CMakeFiles/edit_cache.dir
+/home/tired_atlas/Projects/Euler/20x20-Grid/build/CMakeFiles/grd.dir
